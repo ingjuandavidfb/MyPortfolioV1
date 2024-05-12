@@ -1,0 +1,27 @@
+
+.navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    padding: 10px 15px;
+  }
+  
+  .form-check-label {
+    margin-left: 10px;
+  }
+  
+  .nav-item.active {
+    border-bottom: 2px solid white;
+    border-radius: 20%;
+  }
+  .nav-link.btn.active b {
+    font-weight: bold; /* Hacer el texto en negrita para el elemento seleccionado */
+  }
+  
+  .icon {
+    
+    width: 50px; /* ajusta el tamaño según sea necesario */
+    height: 50px; /* ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* esto hace que el contenedor sea redondo */
+}

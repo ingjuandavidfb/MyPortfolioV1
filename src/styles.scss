@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background: linear-gradient(to bottom, rgb(82, 193, 231), rgb(1, 11, 22));
+
+    //background-color:  lightgray;
+}
+hr {
+    border: 0;
+    height: 3px;
+    background: linear-gradient(to left, transparent, rgb(7, 215, 247), transparent), /* Difuminado hacia la izquierda */
+                linear-gradient(to right, transparent, rgb(7, 215, 247), transparent); /* Difuminado hacia la derecha */
+  }
+  

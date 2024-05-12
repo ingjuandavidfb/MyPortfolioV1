@@ -1,0 +1,29 @@
+<header>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid mt-1 mb-1 ">
+      <a class="navbar-brand btn" id="" (click)="navigateTo('')">
+        <img src="assets/img/icon.jpeg" class="icon" ><b> David Figueroa </b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-nav" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item" [class.active]="selectedNavItem === 'home'">
+            <a class="nav-link btn" aria-current="page" id="home" (click)="navigateTo('home')"><i class="fas fa-house"></i> Home</a>
+          </li>
+          <li class="nav-item" [class.active]="selectedNavItem === 'projects'">
+            <a class="nav-link btn" id="projects" (click)="navigateTo('projects')"><i class="fas fa-toolbox"></i> Projects</a>
+          </li>
+          <li class="nav-item" [class.active]="selectedNavItem === 'skills'">
+            <a class="nav-link btn" id="skills" (click)="navigateTo('skills')"><i class="fas fa-bolt"></i> Skills</a>
+          </li>
+          <li class="nav-item" [class.active]="selectedNavItem === 'contact'">
+            <a class="nav-link btn" id="contact" (click)="navigateTo('contact')"><i class="fas fa-portrait"></i> Contac</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<hr>
